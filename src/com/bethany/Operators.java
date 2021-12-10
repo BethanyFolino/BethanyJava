@@ -77,5 +77,17 @@ public class Operators {
         if (wasCar) {
             System.out.println("wasCar is true");
         }
+
+        double firstNumber = 20.00d;
+        double secondNumber = 80.00d;
+        double combinedNumber = (firstNumber + secondNumber) * 100.00d;
+        System.out.println("combinedNumber = " + combinedNumber);
+        double remainingNumber = combinedNumber % 40.00d;
+        System.out.println("remainingNumber = " + remainingNumber);
+        boolean isZero = (remainingNumber == 0) ? true : false;
+        System.out.println("isZero = " + isZero);
+        if (!isZero) {
+            System.out.println("Got some remainder");
+        }
     }
 }
