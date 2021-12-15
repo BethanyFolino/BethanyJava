@@ -59,7 +59,7 @@ public class Methods {
             position = 1;
         } else if(playerScore >= 500) {
             position = 2;
-        } else if(playerScore >= 100); {
+        } else if(playerScore >= 100) {
             position = 3;
         }
 
